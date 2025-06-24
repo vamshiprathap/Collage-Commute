@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a ride</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+    <form class="login-form" action="/take" method="POST">
+        <h2>Request a Ride</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="source">From:</label>
+        <input type="text" id="source" name="source" placeholder="Enter starting point" required>
+
+        <label for="destination">To:</label>
+        <input type="text" id="destination" name="destination" placeholder="Enter destination" required>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter contact number" required>
+
+        <button type="submit">Submit Request</button>
+    </form>
+  </div>
+
+    
+</body>
+</html>
